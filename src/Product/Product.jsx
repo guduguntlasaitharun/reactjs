@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { incrAction, decrAction } from '../redux/Product/product.action'
+import { incrAction, decrAction } from '../redux/product/product.action'
 let Product = () => {
     let dispatch = useDispatch()
     let product = useSelector((state) => {
